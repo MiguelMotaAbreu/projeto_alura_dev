@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.corpo-principal {
+    background-color: #051D3B;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px; 
+}
+
+.cabecalho__logo {
+    width: 145px;
+    height: 34px;
+}
+
+.cabecalho__barra-de-pesquisa {
+    background-color: grey;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: 64%;
+    border: 34px solid grey;
+    border-radius: 8px;
+    width: 752px;
+    height: 52px;
+}
+
+.cabecalho__info-usuario {
+    display: flex;
+    box-sizing: content-box;
+    align-items: center;
+    width: 10%;
+    gap: 10%;
+}
+
+.cabecalho__info-usuario__foto-perfil {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.cabecalho__info-usuario__nome-usuario {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
