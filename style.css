@@ -5,17 +5,19 @@
     padding:0px;
 }
 
+html, body {
+    height: 100%;
+}
+
 .corpo-principal {
     background-color: #051D3B;
 }
 
 .cabecalho {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 32px;
-    margin-left: 32px;
-    margin-right: 32px; 
+    margin: 1% 1%;
 }
 
 .cabecalho__logo {
@@ -25,15 +27,20 @@
 
 .cabecalho__barra-de-pesquisa {
     background-color: grey;
-    box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    font-size: 16px;
     font-weight: 400;
     color: white;
     opacity: 64%;
-    border: 34px solid grey;
-    border-radius: 8px;
-    width: 752px;
-    height: 52px;
+    border:solid gray 16px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right-width: 724px; 
+    border-left-width: 362px;
+    border-left: 362px;
+    padding-left: 10px;
 }
 
 .cabecalho__info-usuario {
@@ -56,3 +63,69 @@
     color: white;
     font-size: 16px;
 }
+
+.menu {
+    margin: 3% 1%;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    gap: 10px;
+}
+
+.menu__titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 4px;
+    line-height: 18px;
+    padding-left: 5px;
+}
+
+.menu__editor-codigo {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+}
+
+.menu__editor-codigo__imagem {
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
+    background-color: #5081FB;
+    border: solid 16px #5081FB;
+    border-radius: 16px;
+}
+
+.menu__editor-codigo__titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.menu__comunidade {
+    display: flex;
+    gap: 1.1%;
+    align-items: center;
+}
+
+.menu__comunidade__imagem {
+    height: 24px;
+    width: 24px;
+    opacity: 48%;
+    object-fit: contain;
+    background-color: #5081FB;
+    border: solid 16px #5081FB;
+    border-radius: 16px;
+}
+
+.menu__comunidade__titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
