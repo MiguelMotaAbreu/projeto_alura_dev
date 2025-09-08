@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css"> 
     <title>Alura DEV</title>
 </head>
-<body class="corpo-principal">
+<body class="corpo">
     <header class="cabecalho"> <!-- Aqui em Header, posiciono os três elementos que ficarão no cabeçalho da página. Neste caso, o logo da plataforma, a barra de pesquisa (que por enquanto não estará funcional) e o perfil de usuário -->
         <img class="cabecalho__logo" src="imagens/Logo.png" alt="logo da plataforma AluraDEV">
         <p class="cabecalho__barra-de-pesquisa">Busque por algo</p>
@@ -15,16 +15,23 @@
             <p class="cabecalho__info-usuario__nome-usuario">Miguel</p>
         </div>   
     </header>
-    <main classe="main">
+    <main class="principal">
         <section class="menu">
-            <h1 class="menu__titulo">MENU</h1>
-            <div class="menu__editor-codigo">
-                <img class="menu__editor-codigo__imagem" src="/imagens/menu_codigo.png" alt="logo do Editor de código">
-                <p class="menu__editor-codigo__titulo">Editor de código</p>
+            <div class="menu__abas">
+                <h1 class="menu__abas__titulo">MENU</h1>
+                <div class="menu__abas__editor-codigo">
+                    <img class="menu__abas__editor-codigo__imagem" src="/imagens/menu_codigo.png" alt="logo do Editor de código">
+                    <p class="menu__abas__editor-codigo__titulo">Editor de código</p>
+                </div>
+                <div class="menu__abas__comunidade">
+                    <img class="menu__abas__comunidade__imagem" src="/imagens/menu_comunidade.png" alt="logo da aba de Comunidade">
+                    <p class="menu__abas__comunidade__titulo">Comunidade</p>
+                </div>
             </div>
-            <div class="menu__comunidade">
-                <img class="menu__comunidade__imagem" src="/imagens/menu_comunidade.png" alt="logo da aba de Comunidade">
-                <p class="menu__comunidade__titulo">Comunidade</p>
+            <div class="menu__infos-projeto">
+                <h1 class="menu__infos-projeto__titulo">SEU PROJETO</h1>
+                <p class="menu__infos-projeto__subtitulo-nome">Nome do seu projeto</p>
+                <p class="menu__infos-projeto__subtitulo-desc">Descrição do seu projeto</p>
             </div>
         </section>
     </main>        

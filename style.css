@@ -3,13 +3,16 @@
 * {
     margin:0px;
     padding:0px;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 html, body {
     height: 100%;
 }
 
-.corpo-principal {
+.corpo {
     background-color: #051D3B;
 }
 
@@ -26,21 +29,20 @@ html, body {
 }
 
 .cabecalho__barra-de-pesquisa {
-    background-color: grey;
+    background-color: #FFFFFF29;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: white;
     opacity: 64%;
-    border:solid gray 16px;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-right-width: 724px; 
-    border-left-width: 362px;
-    border-left: 362px;
-    padding-left: 10px;
+    padding: 16px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 26px; 
+    padding-left: 8px;
+    width: 752px;
 }
 
 .cabecalho__info-usuario {
@@ -65,67 +67,111 @@ html, body {
 }
 
 .menu {
-    margin: 3% 1%;
     display: flex;
-    flex-direction: column;
-    object-fit: contain;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu__titulo {
+.menu__abas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 1.5%;
+}
+
+.menu__abas__titulo {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: white;
     font-size: 12px;
     letter-spacing: 4px;
-    line-height: 18px;
-    padding-left: 5px;
 }
 
-.menu__editor-codigo {
+.menu__abas__editor-codigo {
     display: flex;
-    gap: 1%;
+    flex-direction: row;
     align-items: center;
+    gap: 16px;
 }
 
-.menu__editor-codigo__imagem {
-    height: 24px;
-    width: 24px;
-    object-fit: contain;
+.menu__abas__editor-codigo__imagem {
     background-color: #5081FB;
-    border: solid 16px #5081FB;
+    border: solid #5081FB 16px;
     border-radius: 16px;
 }
 
-.menu__editor-codigo__titulo {
+.menu__abas__editor-codigo__titulo {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: white;
     font-size: 16px;
-    line-height: 24px;
 }
 
-.menu__comunidade {
+.menu__abas__comunidade {
     display: flex;
-    gap: 1.1%;
+    flex-direction: row;
     align-items: center;
+    gap: 16px;
 }
 
-.menu__comunidade__imagem {
-    height: 24px;
-    width: 24px;
+.menu__abas__comunidade__imagem {
     opacity: 48%;
-    object-fit: contain;
-    background-color: #5081FB;
-    border: solid 16px #5081FB;
+    background-color: #5081FB29;
+    padding: 16px;
     border-radius: 16px;
 }
 
-.menu__comunidade__titulo {
+.menu__abas__comunidade__titulo {
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: white;
     font-size: 16px;
-    line-height: 24px;
 }
 
+.menu__infos-projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-right: 1.5%;
+    margin-top: 4%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.menu__infos-projeto__titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 8px;
+}
+
+.menu__infos-projeto__subtitulo-nome {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: start;
+    opacity: 48%;
+    color: white;
+    font-size: 16px;
+    background-color: #FFFFFF29;
+    padding: 10px;
+    width: 272px;
+    height: 56px;
+    border-radius: 8px;
+    margin-bottom: 1.5%;
+}
+
+.menu__infos-projeto__subtitulo-desc {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    opacity: 48%;
+    color: white;
+    font-size: 16px;
+    background-color: #FFFFFF29;
+    padding: 10px;
+    width: 272px;
+    height: 80px;
+    border-radius: 8px;
+}
