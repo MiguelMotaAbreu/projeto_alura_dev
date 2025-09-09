@@ -42,7 +42,7 @@ html, body {
     border-bottom-left-radius: 8px;
     height: 26px; 
     padding-left: 8px;
-    width: 752px;
+    width: 900px;
 }
 
 .cabecalho__info-usuario {
@@ -73,6 +73,7 @@ html, body {
 }
 
 .menu__abas{
+    order: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -131,6 +132,7 @@ html, body {
 }
 
 .menu__infos-projeto {
+    order: 3;
     display: flex;
     flex-direction: column;
     align-items: self-start;
@@ -174,4 +176,59 @@ html, body {
     width: 272px;
     height: 80px;
     border-radius: 8px;
+}
+
+.codigo-projeto__quadrado {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    width: 742px;
+    height: 366px;
+    background-color: #6BD1FF;
+    border-radius: 8px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.codigo-projeto__quadrado__borda {
+    position: absolute;
+    display: flex;
+    order: 2;
+    background-color: #141414;
+    width: 678px;
+    height: 302px;
+    margin-left: 4%;
+    margin-top: 4%;
+    border-radius: 8px;
+    z-index: 1; /*Controla a ordem das camadas dos itens presentes nessa organização de exibição em três dimensões*/
+    top: 0px;
+}
+
+.codigo-projeto__circulos {
+    display: flex;
+    position:absolute; /*Absolute serve para definir sua posição de maneira sólida em relação ao elemento pai, filho fica "absoluto" em relação ao pai*/
+    margin: 1.5%;  
+    gap: 8px;
+    z-index: 2;
+}
+
+.codigo-projeto__circulos__vermelho {
+    width: 12px;
+    height: 12px;
+    background-color: #FF5F56;
+    border-radius: 50%;
+}
+
+.codigo-projeto__circulos__amarelo {
+    width: 12px;
+    height: 12px;
+    background-color: #FFBD2E;
+    border-radius: 50%;
+}
+
+.codigo-projeto__circulos__verde {
+    width: 12px;
+    height: 12px;
+    background-color: #27C93F;
+    border-radius: 50%; 
 }
