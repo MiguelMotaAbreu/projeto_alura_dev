@@ -232,3 +232,24 @@ html, body {
     background-color: #27C93F;
     border-radius: 50%; 
 }
+
+.botao-visualizar-highlight {
+    margin-top: 3%;
+    position: relative;
+    background-color: #5081FB14;
+    margin-left: 2.25%;
+    width: 752px;
+    height: 56px;
+    border-radius: 8px;
+}
+
+.botao-visualizar-highlight__texto {
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    top: 15px;
+    right: 279px;
+    left: 279px;
+}
