@@ -307,3 +307,18 @@ html, body {
     background-color: #6BD1FF; 
     border-radius: 4px;
 }
+
+.salvar-projeto {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 56px;
+    background-color: #5081FB;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #051D3B;
+    font-size: 16px;
+}
