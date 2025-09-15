@@ -289,3 +289,21 @@ html, body {
     opacity: 64%;
     font-size: 16px;
 }
+
+.botao-selecionar-cor-borda {
+    margin-top: 2%;
+    position: relative;
+    width: 256px;
+    height: 40px;
+    border-radius: 8px;
+    border: solid #051D3B 7px;
+    outline: solid 1px white;
+}
+
+.botao-selecionar-cor-borda__cor {
+    position: absolute;
+    width: 256px;
+    height: 40px;
+    background-color: #6BD1FF; 
+    border-radius: 4px;
+}
