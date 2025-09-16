@@ -29,6 +29,7 @@ html, body {
 }
 
 .cabecalho__barra-de-pesquisa {
+    position: relative;
     background-color: #FFFFFF29;
     font-family: "Inter", sans-serif;
     font-size: 16px;
