@@ -96,6 +96,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     gap: 16px;
+    text-decoration: none;
 }
 
 .menu__abas__editor-codigo__imagem {
@@ -116,6 +117,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     gap: 16px;
+    text-decoration: none;
 }
 
 .menu__abas__comunidade__imagem {

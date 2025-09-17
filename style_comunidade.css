@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+.corpo {
+    background-color: #051D3B;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 1%;
+}
+
+.cabecalho__logo {
+    width: 145px;
+    height: 34px;
+}
+
+.cabecalho__barra-de-pesquisa {
+    position: relative;
+    background-color: #FFFFFF29;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    opacity: 64%;
+    padding: 16px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 26px; 
+    padding-left: 8px;
+    width: 900px;
+}
+
+.cabecalho__info-usuario {
+    display: flex;
+    box-sizing: content-box;
+    align-items: center;
+    width: 10%;
+    gap: 10%;
+}
+
+.cabecalho__info-usuario__foto-perfil {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.cabecalho__info-usuario__nome-usuario {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+
+.menu {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__abas{
+    order: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 1.5%;
+}
+
+.menu__abas__titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+.menu__abas__editor-codigo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.menu__abas__editor-codigo__imagem {
+    opacity: 48%;
+    background-color: #5081FB29;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.menu__abas__editor-codigo__titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+
+.menu__abas__comunidade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.menu__abas__comunidade__imagem {
+    background-color: #5081FB;
+    border: solid #5081FB 16px;
+    border-radius: 16px;
+}
+
+.menu__abas__comunidade__titulo {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
